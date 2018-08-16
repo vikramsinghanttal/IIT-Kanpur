@@ -1,0 +1,27 @@
+{{<img class="menu" src="logo3.png" width="132.5px" height="100px" align="center"/>}}
+
+
+Vikram Singh
+    Home         							[index.html]
+    About	             					[about.html]
+    Academics           					[academics.html]
+
+Research
+    Areas of Interest    					[aoi.html]
+    Publications        					[publications.html]
+    Projects            					[projects.html]
+    Teaching	       						[teaching.html]
+
+Miscellaneous
+	Readings								[readings.html]
+	Group Photos							[groupphotos.html]
+	Quotes									[quotes.html]	
+	Useful Links							[links.html]
+	
+Goodies
+    jemdocs			     					[http://jemdoc.jaboc.net/index.html]
+	jemdoc+MathJax							[http://www.mit.edu/~wsshin/jemdoc+mathjax.html]
+	Create a website						[http://www-personal.umich.edu/~wylguan/using-jemdoc.html]
+	
+
+# vim: et
