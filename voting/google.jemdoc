@@ -1,0 +1,287 @@
+# jemdoc: menu{MENU}{google.html}, showsource, addpackage{color}
+= Voting Research - Google Ads Poll
+[http://www.princeton.edu/~cuff/ Paul Cuff] - [http://www.princeton.edu/~kulkarni/ Sanjeev Kulkarni] - Mark Wang -  John Sturm
+
+
+*[theory.html Click here to read about the purpose of our research (voting theory).]*
+
+== Summary of Results (Condorcet order)
+
+This table summarizes the aggregate Google Ads Poll results for the whole year, with voters separated by party.  The first row lists the winner, followed by the runner-up, and so forth.
+
+~~~
+{}{table}{Survey Result}
+*All voters*|*Democrat voters*|*Independent voters*|*Republican voters*||
+Romney	| Obama	| Clinton	| Romney	||
+Clinton	| Clinton	| Romney	| Gingrich	||
+Obama		| Paul	| Obama	| Santorum	||
+Paul		| Huntsman	| Paul	| Paul	||
+Gingrich	| Romney	| Gingrich| Perry	||
+Santorum	| Gingrich	| Huntsman	| Bachmann	||
+Huntsman	| Santorum	| Santorum	| Huntsman	||
+Perry		| Perry	| Johnson	| Clinton	||
+Bachmann	| Bachmann	| Bachmann	| Johnson	||
+Johnson	| Johnson	| Perry	| Wrights	||
+Wrights	| Wrights	| Wrights	| Obama
+~~~
+
+(\* indicates a tie or cycle, meaning the order within the \*ed group can be disputed from the data)
+
+
+
+== Romney versus Obama
+
+This graph shows the head-to-head matchup of Romney (up) versus Obama (down) according to the Google Ads Poll as the year progressed, with some smoothing applied.  The bold black line accounts for everyone surveyed, whereas the other colors are specific subsets of the population.
+
+~~~
+{}{img_left}{figures/google_Romney_Obama.jpg}{Graph of Romney vs. Obama votes}{}{}{google.html}
+~~~
+
+
+
+== Survey Explanation
+
+Each day this election year we've collected several survey responses through Google Adwords advertising about the 2012 presidential election, totaling over 550 responses.  [http://www.surveymonkey.com/s/GQNKRG6 The survey] asks for participants to give a score (between 0 and 100) to each of 11 choices for president of the United States of America, to indicate who they would pick if the choice were up to them.  The choices include declared candidates as well as others such as Hillary Clinton.  With this detailed information about preferences, we can compare who would win the election under several different voting systems.  *Keep in mind that we had more Republicans respond to our survey than Democrats.*
+
+Our main objective is to see if there is a Condorcet winner---a winner who would win even if any of the other candidates dropped out of the race.  It turns out there is one, in this data and in pretty much all the data we look at.  In this data, *Mitt Romney is the winner* and *Hillary Clinton is the second choice*.  The fact that a Condorcet winner exists has profound implications about how we could dramatically improve our voting system, as discussed on our [theory.html voting theory] page.
+
+Beyond looking at the aggregate vote of all survey participants, we can see how the opinions fluctuated as the year went by.  We give a breakdown of these results throughout the rest of the page.  Please see our [method.html methodology page] to understand how we collected the survey responses and to see the demographic breakdown of the participants.
+
+
+= Comparison of Voting Systems
+
+In this particular data, we are without controversy.  Mitt Romney would win the election (among those surveyed) no matter which of the following five voting systems were used.  This is true not only in the aggregate but also throughout almost the entire year.  But if we look a little harder, we can find some interesting conflicts, where different voting systems give different results.  You'll see these later on this page when we separate the survey responses by party.
+
+
+== Robust Voting
+
+~~~
+{}{img_left}{figures/google_c.jpg}{Graph of robust voting with the Condorcet method}
+~~~
+
+The [http://en.wikipedia.org/wiki/Condorcet_method Condorcet method] is a robust voting system that is not affected by the dreaded "splitting of votes" that often occurs when multiple similar candidates are in the same race.  The Condorcet method also doesn't reward exaggerated voting.  In our opinion, it is the best system for picking a winner from more than two candidates.  Learn more about this in our discussion on [theory.html voting theory].
+
+The Condorcet method is calculated by considering every pair of candidates and computing who wins the majority of support in a head-to-head matchup.  We represent the result graphically above.  Candidates with higher lines in the graph beat all candidates with lower lines in the graph in a head-to-head comparison.  The spacing between the lines indicates the minimum margin of victory between all candidates with lines above the space and all candidates with lines below the space.  On rare occasions, three or more lines may meet in what looks like an exact tie, but what is actually happening is that there is a cycle among those candidates.  For example, in early March we have Clinton beats Gingrich beats Santorum beats Paul beats Clinton.
+
+According to this robust measurement, Mitt Romney is the undisputed winner throughout the whole period of data collection.  It is possible not to have an undisputed winner by this method, but our data suggests there almost always is one.  Because Romney is the Condorcet winner, it means that even if other candidates had dropped out of the election (or primary election) process, Romney still would have won the survey.  This is contrary to ideas commonly discussed in the media during the fall and spring Republican primary process---the idea that if one of the several "conservative" options would drop out of the race then the other could beat Romney.
+
+
+
+== Plurality Score
+
+~~~
+{}{img_left}{figures/google_p.jpg}{Graph of plurality voting}
+~~~
+
+[http://en.wikipedia.org/wiki/Plurality_voting Plurality voting] is the actual system used for US federal elections.  Each voter casts a vote for a single candidate and the candidate with the most votes wins.  Notice that in January Gingrich wins the plurality vote.  This is because a portion of those who support Romney over Gingrich have instead cast their vote for another person, maybe even a Democrat candidate.  We know that a head-to-head comparison between Romney and Gingrich goes to Romney, even in January, as the Condorcet method confirmed.
+
+In plurality voting, a decision has to be made about whom to cast the vote in favor of, which often means some strategy is involved on the part of the voter.  We simply assumed that a voter would vote for the person that they scored highest on the survey (not actually true in general).  The system works on less information, and non-winning candidates can affect the outcome simply by running.  This was the case in our survey data for January, to Gingrich's advantage.
+
+Also notice the Obama scores much higher than Clinton in the plurality vote, even though Clinton beats Obama head-to-head.
+
+
+== Instant Run-off
+
+~~~
+{}{img_left}{figures/google_irv.jpg}{Graph of instant run-off voting}
+~~~
+
+[http://en.wikipedia.org/wiki/Instant-runoff_voting Instant run-off] voting is performed in rounds, using plurality voting in each round.  The loser of the plurality vote is eliminated, and their votes are given to the next choice on each of the ballots.
+
+What you are seeing in the graph is the margin of the loss for each candidate during the round that they were eliminated.  In other words, if there is a gap of .05 above the line representing a particular candidate, then that candidate would not have been eliminated in the round that they lost if they had 5% more votes during that round.
+
+Notice that the instant run-off result in the graph above reaffirms Romney as the winner for the entire duration, agreeing with the Condorcet method shown above.  This suggests it is more robust than plurality voting.  In fact, we've found this to be true generally.  Instant run-off selects the Condorcet winner in 99% of the data we've seen.  But it still has its flaws.  Notice that Clinton comes in third or lower, even though she is second in the Condorcet order.  This illustrates that it is possible for a good candidate to be eliminated early in instant run-off.  You can see this happen in the [mercer.html Mercer County] data.
+
+
+== Range Vote
+
+~~~
+{}{img_left}{figures/google_r.jpg}{Graph of average numeric scores}
+~~~
+
+The survey asked for a number between 0 and 100 to express the level of support for each candidate.  We show here the average score received by each candidate.  The dots in the graph are the individual survey responses, for your amusement.
+
+[http://en.wikipedia.org/wiki/Range_voting Range voting] uses this calculation to pick a winner.  Each voter is allowed to score each candidate in a range, and the candidate with the highest average score wins.  This method is enthusiastically advocated, [http://rangevoting.org/ on the web] and [http://www.amazon.com/Gaming-Vote-Elections-Arent-About/dp/B002SB8OMA in print].  However, we point out the flaws of this system on our [theory.html voting theory] page.
+
+
+
+== Borda Count
+
+~~~
+{}{img_left}{figures/google_b.jpg}{Graph of Borda scores}
+~~~
+
+The last of the five voting systems that we present here is the [http://en.wikipedia.org/wiki/Borda_count Borda count].  Notice that range voting is the only system we've presented that uses the actual numbers submitted in the survey.  Every other method, including Borda, is based only on the order of the candidates, from most preferred to least preferred.  Borda count is analogous to range voting based on the position in the preference order.  Each position is given a score value, evenly spaced apart.  It's as if we required the scores to be assigned evenly throughout the range, one candidate to each of the following slots:  0, 10, 20, ..., 90, 100.  With this requirement, the Borda count method and the range voting method would be equivalent.
+
+To be precise about our scoring presented in the graph, a top choice gets a score of 0, second choice gets -1, third choice gets -2, etc.  Candidates that were given equal scores on the survey each get the average Borda score for their ranks (i.e. two tied for second get a Borda score of -1.5).
+
+It is not coincidence that the Borda score and the range score show similar trends.
+
+
+
+
+
+= Votes among Democrats Only
+
+Let's take a closer look at how the survey was responded to by participants from different parties, starting with the self-proclaimed "registered Democrats."  As expected, Barack Obama wins according to all voting methods.
+
+In this case we find that the aggregate vote (collecting all the survey responses from the entire year from Democrats) has an interesting conflict.  According to the Condorcet order, Ron Paul and John Huntsman are both preferred to Mitt Romney.  If these Democrat voters had to pick a Republican, it should be Ron Paul.  The Borda count and instant run-off methods get it right (though they both move Huntsman below Romney).  But plurality voting and range voting would both elect Mitt Romney.
+
+Below we show graphs of how the opinions fluctuated over time.
+
+
+== Robust Voting (Democrat voters)
+
+~~~
+{}{img_left}{figures/google_D_c.jpg}{Graph of robust voting with the Condorcet method}
+~~~
+
+Among Democrats who participated in our survey, Obama beats Clinton for the top undisputed spot throughout the whole duration.  Take a look at what happens among the Republican candidates.  Paul and Huntsman trade-off for the top spot, with cycles occurring in July and August.  What's startling is that Huntsman's competitive position in the race (from Democrat voters) does not show up in the plurality vote below.
+
+
+== Plurality Score (Democrat voters)
+
+~~~
+{}{img_left}{figures/google_D_p.jpg}{Graph of plurality voting}
+~~~
+
+The plurality score from Democrat voters abandons Hillary Clinton, showing very strong support for Obama.  This means that many survey participants who favor Clinton over Obama actually give their top choice to someone else.
+
+Among Republican candidates it would appear that Gingrich and Romney are the top choices from Democrat voters.  But this is misleading and shows the vulnerability of the plurality vote.  We can calculate the outcome of the plurality vote among only Republican candidates, as if the Democrats were voting in a Republican primary, as below:
+
+
+=== Republican Primary Candidates Only (Democrat voters)
+
+~~~
+{}{img_left}{figures/google_D_p_Rep.jpg}{Graph of plurality voting for Republicans}
+~~~
+
+Here we see that the plurality vote for Republican primary candidates from Democrat voters actually goes to Paul for the first couple of months and Romney for the rest.  Gingrich is never the plurality winner in this data set (even though he achieves the top Republican plurality score for a portion of the time when candidates from other parties were included in the race).  This is another example of the sensitivity of the plurality voting method.
+
+Huntsman is not even competitive in this voting system even though he is actually a favorite Republican choice among Democrat voters, as the Condorcet method above showed.
+
+
+== Range vote (Democrat voters)
+
+~~~
+{}{img_left}{figures/google_D_r.jpg}{Graph of average numeric scores}
+~~~
+
+
+
+= Votes among Republicans
+
+Now we take a closer look at the responses by the self-proclaimed "registered Republicans."  We see that Gingrich is the favorite in January, and then Romney the rest of the time.  However, Gingrich's favorability does not show up accurately in the range vote or the Borda count.
+
+
+== Robust voting (Republican voters)
+
+~~~
+{}{img_left}{figures/google_R_c.jpg}{Graph of robust voting with the Condorcet method}
+~~~
+
+This data yet again confirms our hypothesis---the Condorcet method identifies an undisputed winner from Republican voters throughout the entire duration, though the winner changes at one point.  Some cycles can be observed briefly among other candidates, but the cycles never include the winner.
+
+
+== Plurality score (Republican voters)
+
+~~~
+{}{img_left}{figures/google_R_p.jpg}{Graph of plurality voting}
+~~~
+
+
+== Instant run-off (Republican voters)
+
+~~~
+{}{img_left}{figures/google_R_irv.jpg}{Graph of instant run-off voting}
+~~~
+
+
+== Range vote (Republican voters)
+
+~~~
+{}{img_left}{figures/google_R_r.jpg}{Graph of average numeric scores}
+~~~
+
+Notice that Gingrich does not have a lead in the range vote from Republican voters, even in January.  We know that Gingrich would win a head-to-head matchup in January, among the survey participants, as the Condorcet method shows.
+
+
+== Borda count (Republican voters)
+
+~~~
+{}{img_left}{figures/google_R_b.jpg}{Graph of borda scores}
+~~~
+
+Again, notice that Gingrich never manages to lead in the Borda score from Republican voters, even though we know he would win a head-to-head matchup against Romney and anyone else in January.
+
+
+
+
+= Votes Among Independents Only
+
+Finally, we take a closer look at the responses by people who say they are not registered as Republican or Democrat.
+
+Here we again see conflict among the different voting systems.  Let us start with the aggregate of all the votes from Independents collected over the whole year.  Hillary Clinton is the Condorcet winner among Independent voters, with Mitt Romney the second choice.  But the other four voting systems all would have elected Mitt Romney by the votes of the Independent voters.  This highlights the flaws of these other voting systems.
+
+
+
+== Robust voting (Independent voters)
+
+~~~
+{}{img_left}{figures/google_I_c.jpg}{Graph of robust voting with the Condorcet method}
+~~~
+
+Again, the Condorcet method identifies an undisputed winner from Independent voters throughout the entire duration.  The Condorcet winner changes from Romney to Obama to Clinton and then back to Romney.
+
+
+== Plurality score (Independent voters)
+
+~~~
+{}{img_left}{figures/google_I_p.jpg}{Graph of plurality voting}
+~~~
+
+Notice a couple of things about the plurality score from Independent voters.  First is that Hillary Clinton doesn't stand a chance even though she is the outright winner in June under the more robust Condorcet method.  She loses the plurality vote because many of the votes by people who favor her over Obama are cast for other candidates.
+
+The opposite is true about Gingrich.  He benefits from the crowded field in January, even though Romney would beat him head-to-head.
+
+We can also see Huntsman's popularity much more apparently in the plurality vote when we remove candidates from other parties as alternatives to him.  This is reflected in the graph below.
+
+
+=== Republican Primary Candidates Only (Independent voters)
+
+~~~
+{}{img_left}{figures/google_I_p_Rep.jpg}{Graph of plurality voting for Republicans}
+~~~
+
+Here we see that the plurality vote actually goes to Paul for the first couple of months and Romney for the rest.  Huntsman is left out of the picture even though he is a favorite among Democrats as the Condorcet method above shows.
+
+
+
+
+== Instant run-off (Independent voters)
+
+~~~
+{}{img_left}{figures/google_I_irv.jpg}{Graph of instant run-off voting}
+~~~
+
+Instant run-off also fails to elect Clinton even when she is the Condorcet winner in June.
+
+
+== Range vote (Independent voters)
+
+~~~
+{}{img_left}{figures/google_I_r.jpg}{Graph of average numeric scores}
+~~~
+
+The range vote from independent voters shows a very close race that almost assigns the same winners as the Condorcet method, except that it allows Clinton and Paul to lead in the early months.
+
+
+== Borda count (Independent voters)
+
+~~~
+{}{img_left}{figures/google_I_b.jpg}{Graph of borda scores}
+~~~
+
+Obama and Clinton never lead in the Borda score, even though they are each Condorcet winners part of the time.
+
+

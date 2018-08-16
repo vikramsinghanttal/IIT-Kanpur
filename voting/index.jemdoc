@@ -1,0 +1,67 @@
+# jemdoc: menu{MENU}{index.html}, showsource, addpackage{color}
+= Voting Research
+[http://www.princeton.edu/~cuff/ Paul Cuff] - [http://www.princeton.edu/~kulkarni/ Sanjeev Kulkarni] - Mark Wang -  John Sturm
+
+
+
+
+== Summary of Results from All Polls (Condorcet order)
+
+This table shows a summary of the results from each poll we conducted in 2012.  The first row lists the winner, followed by the second choice, and so forth.
+
+~~~
+{}{table}{condorcet}
+[google.html *Google Adwords Poll*]|[nytimes.html *New York Times Blog Poll*]|[mercer.html *Mercer County Poll*]|[turk.html *Amazon's Mechanical Turk Poll*]||
+*Romney* (11\% margin)| *Romney* (22\% margin)| *Obama* (5\% margin)| *Obama* (24\% margin)||
+Clinton	| Gingrich\*	| Clinton	| Clinton	||
+Obama		| Santorum\*	| Huntsman	| Paul	||
+Paul		| Paul		| Romney	| Romney	||
+Gingrich	| Perry		| Paul	| Huntsman	||
+Santorum	| Huntsman		| Wrights	| Gingrich	||
+Huntsman	| Bachmann		| Santorum	| Santorum	||
+Perry		| Johnson		| Johnson	| Perry	||
+Bachmann	| Clinton		| Gingrich	| Johnson	||
+Johnson	| Wrights		| Perry	| Bachmann	||
+Wrights	| Obama		| Bachmann	| Wrights
+~~~
+
+(\* indicates a tie)
+
+
+
+== Explanation
+
+Throughout 2012 we conducted an online survey about the US presidential election.  We're not pollsters; we're mathematicians.  Our research is about understanding how the right voting system can and should work---not about understanding this particular election.  Nevertheless, the data we collected is interesting, and we present it here for your amusement.
+
+Take a look at our [theory.html voting theory] page to understand what we're /really/ doing.  Also, detailed breakdowns of the gathered data are available using the menu to the left.
+
+We advocate a voting system known as the Condorcet method for elections between more than two candidates (no need for parties or primary elections).  This method allows voters to submit a list of their top choices, in order, rather than just a single choice.  Believe it or not, there is a lot of controversy about how to pick a winner from ballots like this.  The Condorcet method selects the candidate who would beat any other candidate if they were the only two in the race.  This method is the only system that can allow multiple similar candidates in the same race without hurting or helping each other's chances.  However, the main concern about the Condorcet method is that it may not produce an undisputed winner.  When it does, it's hands-down the best voting system to use.  When it doesn't, a tie-breaking protocol is used, which has no guarantees to satisfy everyone's sense of fairness.
+
+The main reason for our data collection is to see whether the Condorcet method produces an undisputed winner in real life.  This data, as well as research by others, confirms our hypothesis that a clear winner will emerge in real life situations.  In all of the different samples that we polled, the Condorcet method not only produced an undisputed winner but also usually an entire undisputed order of all the candidates (see results table above).
+
+
+
+== Polls
+
+We've dissected the data in many more ways than what we will show on this page.  For example, who would be the top Republican choice among Democrats in the poll?  How did the opinions change throughout the year?  Take a closer look at our results from four different sources of survey recruiting by clicking on the following links or using the menu at the top left of this page.
+
+- [google.html Google advertising]:  Collecting a slow and steady rate of responses over many months through Google search advertising provides us with our most interesting data.  We can look for trends about how the votes and opinions have changed as the year went on.
+- [nytimes.html New York Times Blog]:  On January 13 and 14 we advertised on [http://fivethirtyeight.com/ Five Thirty Eight], a New York Times blog.  We received 188 responses, mostly from Republicans.
+- [mercer.html Mercer County]:  In early February we sent an email to a voluntary panel of local Mercer County, NJ residents and received 288 responses, mostly from Democrats.  This panel was recruited by Princeton University.
+- [turk.html Amazon's Mechanical Turk]:  We also gathered data throughout February through Amazon's Mechanical Turk system by paying a small fee for each response (around 10 cents).  We had 472 people participate.  Most identify as Independents, but the Democrats outnumber the Republicans two to one.
+
+
+
+
+== Limitations
+
+Keep in mind two limitations.
+
+- First, we are working with a very limited quantity of survey responses.  The time varying plots shown on the [google.html Google Ads Poll page] averages approximately a month of data, which in this case is only about 50-100 responses.  This results in a huge margin of error---around 10%.  Our other poll results have more participants, but still relatively small numbers compared to most polls in the news.
+- Second, we didn't follow accepted recruiting methods for the survey, and we don't do anything to correct for anomalies in the sample, such as too many Democrats or Republicans.  Feel free to read the details of our [method.html methodology].
+
+
+
+== Acknowledgments
+
+This work is supported by the National Science Foundation (grants CCF-1116013 and CCF-0939370) and by the Air Force Office of Scientific Research (grant FA9550-12-1-0196).

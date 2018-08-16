@@ -1,0 +1,70 @@
+# jemdoc: menu{MENU}{nytimes.html}, showsource
+= Voting Research - NY Times Blog Poll
+[http://www.princeton.edu/~cuff/ Paul Cuff] - [http://www.princeton.edu/~kulkarni/ Sanjeev Kulkarni] - Mark Wang -  John Sturm
+
+
+*[theory.html Click here to read about the purpose of our research (voting theory).]*
+
+
+== Survey Explanation
+
+On January 13 and 14, 2012, we placed a banner ad on a political New York Time blog, [http://fivethirtyeight.blogs.nytimes.com/ fivethirtyeight.com].  The result was 188 completed surveys.  *Most of the survey participants were Republicans, by far.*  Please see our [method.html methodology page] to understand how we collected the survey responses and to see the demographic breakdown of the participants.
+
+[http://www.surveymonkey.com/s/GQNKRG6 The survey] asks for participants to give a score (between 0 and 100) to each of 11 choices for president of the United States of America, to indicate who they would pick if the choice were up to them.  The choices include declared candidates as well as other such as Hillary Clinton.  With this detailed information about preferences, we can compare who would win the election under several different voting systems.
+
+Our main objective is to see if there is a Condorcet winner---a winner who would win even if any of the other candidates dropped out of the race.  It turns out there is one, in this data and in pretty much all the data we look at.  In this data, *Mitt Romney is the undisputed winner.*  The fact that a Condorcet winner exists has profound implications about how we could dramatically improve our voting system, as discussed on our [theory.html voting theory] page.
+
+
+== Results - Romney Wins in All Voting Systems
+
+The results of five different voting methods are shown in these tables, one in each column.  The first row lists the winner, followed by the runner-up, and so forth.
+
+*Please see the first few sections of the [google.html Google Ads Poll page] or the [theory.html voting theory page] for an explanation of the different voting systems.*
+
+~~~
+{}{table}{Survey Result}
+*Condorcet*|*Plurality*|*Instant Run-off*|*Range*|*Borda*||
+Romney	| Romney	| Romney	| Romney	| Romney	||
+Gingrich\*	| Paul	| Paul	| Paul	| Santorum	||
+Santorum\*	| Gingrich	| Gingrich	| Gingrich	| Paul	||
+Paul		| Obama	| Obama	| Santorum	| Gingrich	||
+Perry		| Santorum	| Santorum	| Huntsman	| Perry	||
+Huntsman	| Clinton	| Clinton	| Perry	| Huntsman	||
+Bachmann	| Perry	| Perry	| Clinton	| Clinton	||
+Johnson	| Huntsman	| Huntsman	| Bachmann	| Bachmann	||
+Clinton	| Bachmann	| Bachmann	| Johnson	| Johnson	||
+Wrights	| Johnson	| Johnson	| Obama	| Obama	||
+Obama		| Wrights	| Wrights	| Wrights	| Wrights
+~~~
+
+(\* indicates a tie)
+
+
+
+=== Republican Primary Candidates Only
+
+When we look only at the Republican candidates, as if this were a primary election, we find that the order of the candidates shifts in relation to each other under some voting systems.  Only the Condorcet method can guarantee to keep the candidates in the same order.
+
+~~~
+{}{table}{Survey Result}
+*Condorcet*|*Plurality*|*Instant Run-off*|*Range*|*Borda*||
+Romney	| Romney	| Romney	| Romney	| Romney	||
+Gingrich\*	| Paul	| Paul	| Paul	| Santorum	||
+Santorum\*	| Gingrich	| Gingrich	| Gingrich	| Gingrich	||
+Paul		| Huntsman	| Huntsman	| Santorum	| Paul	||
+Perry		| Santorum	| Santorum	| Huntsman	| Perry	||
+Huntsman	| Perry	| Perry	| Perry	| Huntsman	||
+Bachmann	| Bachmann	| Bachmann	| Bachmann	| Bachmann
+~~~
+
+(\* indicates a tie)
+
+
+
+== By Party
+
+There were not enough Democrats or Independents who took the survey to provide many meaningful or interesting results with voters separated by party.
+
+In summary, Rick Santorum and Ron Paul move up slightly according to some of the voting methods when data from only the Republican survey participants is used.  But Romney maintains his lead by wide margins in all voting systems.
+
+The Condorcet winner from the Democrats surveyed was John Huntsman.
