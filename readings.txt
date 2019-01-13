@@ -1,0 +1,112 @@
+# jemdoc: menu{MENU}{readings.html}, showsource, addpackage{color}
+= Vikram Singh -- Readings
+
+
+
+~~~
+I have shared the links of some of the research groups and labs which I believe are conducting very good research.
+ The links shared below are solely based on my personal experience and suggestions from my friends.
+~~~
+
+~~~
+== Linear Algebra and Matrix Theory
+=== Books
+- [https://www.cengage.co.in/category/higher-education/science-mathematics/mathematics/linear-algebra/linear-algebra-and-its-applications-cn Linear Algebra and Its Applications by Gilbert Strang]
+- [https://www.springer.com/in/book/9783319110790 Linear Algebra Done Right by Sheldon Axler]
+
+=== Video Sources
+- [https://www.youtube.com/playlist?list=PL05CD03A43A56AE66 Advanced Matrix Theory and Linear Algebra by Prof. Vittal Rao(IISC)]
+- [https://www.youtube.com/playlist?list=PL49CF3715CB9EF31D Linear Algebra by Prof. Gilbert Strang(MIT)]
+~~~
+
+~~~
+== Probability Theory
+=== Books
+- [https://www.elsevier.com/books/probability-and-measure-theory/ash/978-0-08-051487-1 Probability and measure theory by Robert B. Ash]
+- [https://www.elsevier.com/books/a-course-in-probability-theory/chung/978-0-08-052298-2 A Course in Probability Theory by Kai Lai Chung]
+- [http://www.oupcanada.com/catalog/9780198572220.html Probability and Random Processes by Geoffrey Grimmett and David Stirzaker]
+- [https://www.pearson.com/us/higher-education/program/Ross-First-Course-in-Probability-A-9th-Edition/PGM110742.html A First Course in Probability by Sheldon Ross]
+
+=== Video Sources
+- [https://www.youtube.com/playlist?list=PLUl4u3cNGP60A3XMwZ5sep719_nh95qOe Probabilistic Systems Analysis and Applied Probability(MIT)-Basic]
+- [https://www.youtube.com/playlist?list=PLbMVogVj5nJQqGHrpAloTec_lOKsG-foc Probability Foundations for Engineers by Prof. Krishna Jaggannathan(IIT Madras)-Advance]
+~~~
+
+~~~
+== Wireless Communication${^*}$
+=== Books
+- [http://stanford.edu/~dntse/wireless_book.html Fundamentals of Wireless Communication by David Tse and Pramod Viswanath]
+- [http://www.ee.iitm.ac.in/~giri/pdfs/EE5141/book2-rapapport.pdf Wireless Communications: Principles and Practice by Theodore Rappaport]
+- [https://www.mheducation.co.in/9781259029578-india-principles-of-modern-wireless-communications-systems Principles of Modern Wireless Communication Systems by Aditya K. Jagannatham]
+
+=== Video Sources
+- [https://www.youtube.com/playlist?list=PLbMVogVj5nJSi8FUsvglRxLtN1TN9y4nx Advanced 3G & 4G Wireless Mobile Communications by Prof. Aditya Jagganathan(IIT Kanpur)]
+- [https://nptel.ac.in/courses/106106167/ Introduction to Wireless and Cellular Communications by Prof.R. David Koilpillai (IIT Madras)]
+
+=== Research Links
+- [http://wireless.engineering.nyu.edu/ Newyork University(NYU) for mmWave]
+- [http://groups.csail.mit.edu/netmit/wordpress/ Networks at MIT]
+~~~
+
+
+~~~
+== Convex Optimization${^*}$
+=== Books
+- [https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf Convex Optimization by Stephen Boyd and Lieven Vandenberghe]
+- [http://www.mit.edu/~dimitrib/convexduality.html Convex Optimization Theory by Dimitri Bertsekas]
+
+=== Video Sources
+- [https://www.youtube.com/playlist?list=PL3940DD956CDF0622 Convex Optimization-I by Prof. Stephen Boyd(Stanford)]
+- [https://www.youtube.com/playlist?list=PLjbUi5mgii6AVdvImLB9-Hako68p9MpIC Convex Optimization by Prof. Ryan Tibshirani(CMU)]
+
+=== Research Links
+- [http://web.stanford.edu/~boyd/index.html Stephan Boyd Page]
+- [http://www.mit.edu/~dimitrib/home.html Dimitri Bertsekas Page]
+- I will add as soon as i know anything else.
+~~~
+
+
+~~~
+== Detection and Estimation Theory${^*}$
+=== Books
+- [https://www.springer.com/in/book/9780387765426 Principles of Signal Detection and Parameter Estimation by Levy, Bernard C. Levy]
+- [https://www.wiley.com/en-us/Detection+Estimation+and+Modulation+Theory%2C+Part+I%3A+Detection%2C+Estimation%2C+and+Filtering+Theory%2C+2nd+Edition-p-9780470542965 Detection Estimation and Modulation Theory, Part I: Detection, Estimation, and Filtering Theory Adaptive Filters by Harry L. Van Trees, Kristine L. Bell and Zhi Tian]
+- [https://www.amazon.com/Fundamentals-Statistical-Signal-Processing-Estimation/dp/0133457117/ref=sr_1_1?ie=UTF8&s=books&qid=1259965916&sr=1-1 Fundamentals of Statistical Signal Processing, Volume I: Estimation Theory by Steven M. Kay]
+- [https://www.amazon.com/Fundamentals-Statistical-Signal-Processing-Detection/dp/013504135X/ref=pd_bxgy_b_img_b Fundamentals of Statistical Signal Processing, Volume II: Detection Theory by Steven M. Kay]
+~~~
+
+
+~~~
+== Adaptive Signal Processing${^*}$
+=== Books
+- [https://www.wiley.com/en-us/Adaptive+Filters%3A+Theory+and+Applications%2C+2nd+Edition-p-9781119979548 Adaptive Filters: Theory and Applications by Behrouz Farhang-Boroujeny]
+- [https://onlinelibrary.wiley.com/doi/book/10.1002/9780470374122 Adaptive Filters by Sayed H Ali]
+- [http://catalogue.pearsoned.co.uk/educator/product/Adaptive-Filter-Theory-International-Edition/9780273764083.page Adaptive Filter Theory : International Edition, 5/E
+Simon Haykin]
+~~~
+
+
+~~~
+== Machine Learning${^\dagger}$
+=== Books
+- [https://www.wiley.com/en-us/Adaptive+Filters%3A+Theory+and+Applications%2C+2nd+Edition-p-9781119979548 Adaptive Filters: Theory and Applications by Behrouz Farhang-Boroujeny]
+- [https://onlinelibrary.wiley.com/doi/book/10.1002/9780470374122 Adaptive Filters by Sayed H Ali]
+- [http://catalogue.pearsoned.co.uk/educator/product/Adaptive-Filter-Theory-International-Edition/9780273764083.page Adaptive Filter Theory : International Edition, 5/E
+Simon Haykin]
+
+=== Video Sources
+- [https://www.coursera.org/learn/machine-learning/home/welcome  Machine Learning by Andrew Ng]
+- [https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/index.htm Introduction to Computational Thinking and Data Science(MIT)]
+- [https://www.coursera.org/specializations/machine-learning Machine Learning Specialization by University of Washington(UW)]
+
+=== Research Links
+- [http://machinelearning.mit.edu/index.html Machine Learning Group(MIT)]
+- [http://bair.berkeley.edu/faculty.html Berkeley Artificial Intelligence Research Lab(UC Berkeley)]
+- [https://cs.stanford.edu/research/machinelearning Stanford Artificial Intelligence Laboratory - Machine Learning]
+- [https://www.ml.cmu.edu/ Machine Learning Department(CMU)]
+~~~
+
+~~~
+$^*$ : This subject require you to be good at both Linear algebra and Probability Theory.\n
+$^\dagger$ : This subject assumes proficiency in not Linear algebra and Probability Theory but Convex Optimization.
+~~~
