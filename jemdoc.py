@@ -751,11 +751,21 @@ def br(b, f, tableblock=False):
   # interfere.
   r = re.compile(r'(?<!\\)/(.*?)(?<!\\)/', re.M + re.S)
   b = re.sub(r, r'<i>\1</i>', b)
-
+  
+  # Deal with @@bold@@.
+  r = re.compile(r'(?<!\\)\@@(.*?)(?<!\\)\@@', re.M + re.S)
+  b = re.sub(r, r'<bbb>\1</bbb>', b)
+  
+  
   # Deal with *bold*.
   r = re.compile(r'(?<!\\)\*(.*?)(?<!\\)\*', re.M + re.S)
-  b = re.sub(r, r'<b>\1</b>', b)
- 
+  b = re.sub(r, r'<b>\1</b>', b)\
+  
+  
+  # Deal with @bold@.
+  r = re.compile(r'(?<!\\)\@(.*?)(?<!\\)\@', re.M + re.S)
+  b = re.sub(r, r'<bb>\1</bb>', b);
+  
   # Deal with _underscore_.
   r = re.compile(r'(?<!\\)_(.*?)(?<!\\)_', re.M + re.S)
   b = re.sub(r, r'<u>\1</u>', b)
@@ -1635,7 +1645,7 @@ def main():
     else:
       thisout = outname
 
-    infile = io.open(inname, 'rUb')
+    infile = io.open(inname, 'rb')
     outfile = io.open(thisout, 'w')
 
 #    print(infile.read())
